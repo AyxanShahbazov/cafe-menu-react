@@ -1,10 +1,15 @@
 import React from "react"
-import Pizza from "./components/Pizza.jsx"
+import Footer from "./components/Footer.jsx";
+import Menu from "./components/Menu.jsx";
+import Header from "./components/Header.jsx";
+import "./index.css";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="container">
+      <Header />
+      <Menu />
+      <Footer />
     </div>
   );
 }
