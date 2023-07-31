@@ -6,8 +6,7 @@ const Footer = () => {
   console.log(isOpen);
 
     return <footer className="footer">
-        {new Date().toLocaleTimeString()}
-        We're currently open
+        {new Date().toLocaleTimeString()} We're currently open
     </footer>;
 };
 
