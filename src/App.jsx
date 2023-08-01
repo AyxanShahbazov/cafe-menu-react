@@ -6,11 +6,11 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="container">
+    <>
       <Header />
       <Menu />
       <Footer />
-    </div>
+    </>
   );
 }
 
